@@ -16,14 +16,14 @@ $> npm install
 
 3. Modify appkey and moduleName in MessagesViewController.m
 Appkey
-```
+```objectivec
     NSString *appKey = @"YOUR_BUNDLEBUS_APP_KEY";
     BundleBus *bundlebus = [[BundleBus alloc] init];
     [bundlebus silentUpdate:appKey];
 ```
 
 ModuleName
-```
+```objectivec
     RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
                                                         moduleName:@"YOUR_REACTNATIVE_APP_NAME"
                                                  initialProperties:nil
