@@ -5,16 +5,16 @@ React Native enabled Xcode template for iMessage App using BundleBus
 ReactNativeiMessageApp is a Xcode template project for iMessage Application which has enabled the React Native and Bundlebus.
 
 # How to
-Download repository and install npm modules.
+- Download repository and install npm modules.
 ~~~~
 $> cd ReactNativeiMessageApp
 $> npm install
 ~~~~
 
-Open the Xcode project
+- Open the Xcode project
 
 
-Modify appkey and moduleName in MessagesViewController.m
+- Modify appkey and moduleName in MessagesViewController.m
 
 Appkey
 ```objectivec
@@ -32,4 +32,4 @@ ModuleName
 
 ```
 
-Build
+- Build
