@@ -18,10 +18,6 @@ Run [BundleBus_backend](https://github.com/zenome/BundleBus_backend).
 ~~~
 
 ### Set backend server address
-* I believe you already download and run [bundlebus-backend](https://github.com/zenome/BundleBus_backend).
-* This command let you set your backend server address.
-
-#### Command
 * Run below command.
 ~~~~
 > bundlebus server <http://youraddress:port>
