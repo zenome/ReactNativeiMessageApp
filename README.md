@@ -8,8 +8,8 @@ ReactNativeiMessageApp is a Xcode template project for iMessage Application whic
 # How to
 
 ## Prerequisite ##
-Download repository and run BundleBus server
-Run [BundleBus_backend](https://github.com/zenome/BundleBus_backend).
+* Download repository and run BundleBus server
+* Run [BundleBus_backend](https://github.com/zenome/BundleBus_backend).
 
 ## How to install ##
 ~~~
