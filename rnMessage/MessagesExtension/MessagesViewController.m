@@ -12,6 +12,7 @@
 
 #import "RCTBundleURLProvider.h"
 #import "RCTRootView.h"
+#import "Bundlebus.h"
 
 @interface MessagesViewController ()
 
