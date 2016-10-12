@@ -64,7 +64,8 @@ where os should be `android` or `ios`.
 
 ### Run iOS App
 #### Modify appkey and moduleName
-* appKey can be confirmed by below command
+* appKey be used as "AccesKey" in '.bundlebus.config'.
+* "AccessKey" can be confirmed by below command.
 ~~~
 > cat .bundlebus.config
 ~~~
