@@ -11,6 +11,13 @@ ReactNativeiMessageApp is a Xcode template project for iMessage Application whic
 * Download repository
 * Run [BundleBus_backend](https://github.com/zenome/BundleBus_backend).
 
+* install brew, watchman
+~~~
+> /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+> brew update
+> brew install watchman
+~~~
+
 ## How to install ##
 ~~~
 > cd ReactNativeiMessageApp/rnMessage
