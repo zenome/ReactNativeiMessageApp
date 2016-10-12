@@ -63,6 +63,11 @@ where os should be `android` or `ios`.
 ~~~~
 
 ### Run iOS App
+#### Modify appkey and moduleName
+* appKey can be confirmed by below command
+~~~
+> cat .bundlebus.config
+~~~
 * Open the Xcode project
 * Modify appkey and moduleName in MessagesViewController.m
 ```objectivec
@@ -77,4 +82,5 @@ where os should be `android` or `ios`.
                                                      launchOptions:nil];
 
 ```
-* Build
+#### Build
+* Build by Xcode
