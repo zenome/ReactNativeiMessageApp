@@ -68,6 +68,7 @@ where os should be `android` or `ios`.
 ~~~
 > cat .bundlebus.config
 ~~~
+* moduleName is equal to "name" in 'package.json'
 * Open the Xcode project
 * Modify appkey and moduleName in MessagesViewController.m
 ```objectivec
