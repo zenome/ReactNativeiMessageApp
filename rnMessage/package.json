@@ -9,9 +9,9 @@
   "author": "zenome",
   "license": "MIT",
   "dependencies": {
+    "bundlebus-client": "*",
     "react": "15.3.2",
     "react-native": "0.34.1",
-    "bundlebus-client":"*",
     "react-native-action-button": "^2.0.4",
     "react-native-maps": "^0.8.2",
     "react-native-vector-icons": "^2.1.0"
