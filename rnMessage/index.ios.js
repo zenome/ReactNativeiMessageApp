@@ -168,10 +168,10 @@ class VirtualVehicle extends Component {
           <View style={{backgroundColor: '#f3f3f3', flexDirection:'row', alignSelf:'flex-end'}}>
             <ActionButton style={{alignItems:'flex-end'}} buttonColor="rgba(231,76,60,1)">
               <ActionButton.Item buttonColor='#9b59b6' title={engineCommand} onPress={()=>this.engine(this.state.vehicles[0])}>
-                <Icon name="ios-heart" style={styles.actionButtonIcon} />
+                <Icon name="md-heart" style={styles.actionButtonIcon} />
               </ActionButton.Item>
               <ActionButton.Item buttonColor='#1abc9c' title="POI" onPress={()=>this.poi()}>
-                <Icon name="ios-map" style={styles.actionButtonIcon} />
+                <Icon name="md-map" style={styles.actionButtonIcon} />
               </ActionButton.Item>
             </ActionButton>
             <View style={{width:50}}></View>
