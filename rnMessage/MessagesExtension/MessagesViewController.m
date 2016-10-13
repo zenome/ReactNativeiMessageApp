@@ -87,15 +87,14 @@
 -(void) presentReactNativeView:(MSMessagesAppPresentationStyle)presentationStyle {
     // If you need you can pass the presentation style to your view
 
-    NSString *appKey = @"YOUR_BUNDLEBUS_APP_KEY";
+    NSString *appKey = @"000e1a78-2cb3-4a29-8c7d-f9de60b4803f";
     BundleBus *bundlebus = [[BundleBus alloc] init];
-    [bundlebus silentUpdate:appKey];
     
     NSURL *jsCodeLocation;
     jsCodeLocation = [bundlebus bundleUrl:appKey];
     if(jsCodeLocation != nil) {
         RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
-                                                            moduleName:@"YOUR_REACT_NATIVE_APP_NAME"
+                                                            moduleName:@"rnmessage"
                                                      initialProperties:nil
                                                          launchOptions:nil];
         
@@ -111,6 +110,9 @@
         [self.view addSubview:vc.view];
         [vc didMoveToParentViewController:self];
     }
+    
+    [bundlebus configServerAddressAndPort:@"192.168.0.4" port:3000];
+    [bundlebus silentUpdate:appKey];
 }
 
 @end
