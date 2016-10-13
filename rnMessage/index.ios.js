@@ -211,7 +211,7 @@ const styles = StyleSheet.create({
     right: 0,
     bottom: 0,
     width: Dimensions.get('window').width,
-    height: Dimensions.get('window').height*0.12,
+    height: Dimensions.get('window').height*0.22,
     backgroundColor: 'rgba(255,255,255,0.8)',
     flexDirection: 'column',
     alignSelf:'center'
