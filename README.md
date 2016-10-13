@@ -22,6 +22,7 @@ ReactNativeiMessageApp is a Xcode template project for iMessage Application whic
 ~~~
 > cd ReactNativeiMessageApp/rnMessage
 > npm install
+> react-native link
 ~~~
 
 ### Set backend server address
