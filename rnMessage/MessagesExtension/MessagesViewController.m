@@ -87,7 +87,7 @@
 -(void) presentReactNativeView:(MSMessagesAppPresentationStyle)presentationStyle {
     // If you need you can pass the presentation style to your view
 
-    NSString *appKey = @"000e1a78-2cb3-4a29-8c7d-f9de60b4803f";
+    NSString *appKey = @"d52c77b9-3231-4149-8228-68f69ca2a644";
     BundleBus *bundlebus = [[BundleBus alloc] init];
     
     NSURL *jsCodeLocation;
